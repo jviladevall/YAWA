@@ -1,2 +1,2 @@
 # YAWA
-Your Average Weathr App
+Your Average Weather App
