@@ -1,0 +1,49 @@
+.hero-bg {
+  background-color: beige;
+  /* background-color: #ffecae; */
+}
+
+body {
+  background-color: beige;
+}
+#footer {
+  margin: 20px;
+}
+.btn-outline-warning {
+  --bs-btn-color: rgb(37, 66, 15);
+  --bs-btn-border-color: #f5bf0e;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #ffe17b;
+  --bs-btn-hover-border-color: #ffe17b;
+  --bs-btn-focus-shadow-rgb: 255, 193, 7;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #ffe17b;
+  --bs-btn-active-border-color: #ffe17b;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #ffe17b;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #ffe17b;
+  --bs-gradient: none;
+}
+
+.homebutton {
+  position: fixed;
+  left: 95%;
+  top: 90%;
+}
+
+@media (max-width: 800px) {
+  .homebutton {
+    display: none;
+  }
+}
+
+#weather-img {
+  height: clamp(8rem, 6.4rem + 20vw, 16rem);
+  width: clamp(8rem, 6.4rem + 20vw, 16rem);
+  border-radius: 50%;
+  margin: 1.5rem 0 2rem 0;
+  transition-delay: 0.25s;
+  transition-duration: 1s;
+  transition-timing-function: cubic-bezier(0.3, 1.01, 0, -0.7);
+}
