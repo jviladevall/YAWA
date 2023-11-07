@@ -3,5 +3,5 @@ Your Average Weathr App
 
 Returns weather for city input.
 
-npm i
+npm i, 
 nodemon index.js
